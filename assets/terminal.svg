@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="385" viewBox="0 0 820 385" role="img" aria-label="very-real-terminal: Sam Mosios, SRE &amp; Platform Engineer">
+  <title>Sam Mosios — SRE &amp; Platform Engineer</title>
+  <style>
+    text { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 14px; white-space: pre; }
+    .l { opacity: 0; animation: show .01s linear forwards; }
+    .k { fill: transparent; animation: type .01s linear forwards; }
+    .cur { fill: #8eff71; animation: blink 1s steps(1) infinite; }
+    .glow { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes show { to { opacity: 1; } }
+    @keyframes type { to { fill: #ffffff; } }
+    @keyframes blink { 50% { fill: transparent; } }
+    @keyframes pulse { 50% { opacity: .35; } }
+    @media (prefers-reduced-motion: reduce) {
+      .l { animation: none; opacity: 1; } .k { animation: none; fill: #ffffff; } .cur, .glow { animation: none; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="#8eff71" stop-opacity=".0"/>
+      <stop offset=".5" stop-color="#8eff71" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#8eff71" stop-opacity=".0"/>
+    </linearGradient>
+  </defs>
+  <rect width="820" height="385" rx="10" fill="#201f1f"/>
+  <rect x="0" y="36" width="820" height="349" fill="#000" fill-opacity=".5"/>
+  <path d="M0 10 a10 10 0 0 1 10 -10 h800 a10 10 0 0 1 10 10 v26 h-820 z" fill="#131313"/>
+  <rect class="glow" x="0" y="0" width="820" height="1" fill="url(#edge)"/>
+  <circle cx="22" cy="18" r="5" fill="#a70138"/>
+  <circle cx="38" cy="18" r="5" fill="#f790e0"/>
+  <circle cx="54" cy="18" r="5" fill="#8eff71"/>
+  <text x="800" y="22" text-anchor="end" fill="#9ca3af" style="font-size:10px;letter-spacing:.5px">VERY-REAL-TERMINAL // USER@SAMMOSIOS.COM</text>
+    <text class="l" x="28" y="78" fill="#adaaaa" style="animation-delay:0.40s">Initialising very-real-terminal...</text>
+  <text class="l" x="28" y="111" fill="#ffffff" style="animation-delay:0.64s">Type 'help' to see available commands.</text>
+  <text class="l" x="28" y="144" style="animation-delay:1.38s"><tspan fill="#8197ff">➜ </tspan><tspan fill="#adaaaa">~ </tspan><tspan class="k" style="animation-delay:1.73s">a</tspan><tspan class="k" style="animation-delay:1.84s">b</tspan><tspan class="k" style="animation-delay:1.95s">o</tspan><tspan class="k" style="animation-delay:2.06s">u</tspan><tspan class="k" style="animation-delay:2.17s">t</tspan></text>
+  <text class="l" x="28" y="166" fill="#8eff71" font-weight="700" style="animation-delay:2.55s">Sam Mosios</text>
+  <text class="l" x="28" y="188" fill="#ffffff" style="animation-delay:2.67s">SRE &amp; Platform Engineer</text>
+  <text class="l" x="28" y="210" fill="#adaaaa" style="animation-delay:2.79s">Originally from Greece, currently based in Sweden</text>
+  <text class="l" x="28" y="232" fill="#adaaaa" style="animation-delay:2.91s">MSc Distributed Systems @ KTH (final year)</text>
+  <text class="l" x="28" y="265" fill="#adaaaa" style="animation-delay:3.15s">Five pillars:</text>
+  <text class="l" x="28" y="287" fill="#ffffff" style="animation-delay:3.27s">  security · reliability · observability · scalability · devex</text>
+  <text class="l" x="28" y="320" fill="#adaaaa" style="animation-delay:3.51s">Approach: explore → resolve → amplify → automate</text>
+  <text class="l" x="28" y="353" style="animation-delay:4.05s"><tspan fill="#8197ff">➜ </tspan><tspan fill="#adaaaa">~ </tspan><tspan class="cur" style="animation-delay:4.05s">█</tspan></text>
+</svg>
